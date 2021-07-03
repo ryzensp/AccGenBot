@@ -7,3 +7,4 @@ class Config(object):
     CHANNEL_US = os.environ.get("CHANNEL_US", None)
     CHANNEL_URL = os.environ.get("CHANNEL_URL", None)
     LOGS_CHAT = int(os.environ.get("LOGS_CHAT", False))
+    LOL = BOT_TOKEN
